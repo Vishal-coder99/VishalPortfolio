@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishal Gupta — Frontend Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-pill">
+    <a href="#home" class="nav-link active" data-section="home">Home</a>
+    <a href="#about" class="nav-link" data-section="about">About</a>
+    <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+    <a href="#roadmap" class="nav-link" data-section="roadmap">Roadmap</a>
+    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="section hero">
+  <div class="hero-glow"></div>
+  <span class="badge"><span class="dot"></span>Open to Opportunities</span>
+  <h1 class="hero-title">Hi, I'm <span class="accent">Vishal Gupta</span></h1>
+  <p class="hero-role">Frontend Developer</p>
+  <p class="hero-sub">BCA student who builds clean, responsive interfaces with HTML, CSS &amp; JavaScript —
+    and is always one tab away from a new tech blog.</p>
+  <div class="hero-actions">
+    <a href="#projects" class="btn btn-primary">View Projects</a>
+    <a href="#contact" class="btn btn-outline">Contact Me</a>
+  </div>
+  <div class="hero-socials">
+    <a href="https://linkedin.com/in/vishal-gupta21" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+    </a>
+    <a href="https://github.com/vishalgupta21" target="_blank" rel="noopener" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.76-1.34-1.76-1.1-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.08 1.83 2.82 1.31 3.5 1 .11-.78.42-1.31.77-1.61-2.66-.31-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.54.12-3.2 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.89.12 3.2.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+    </a>
+    <a href="mailto:vishalgupta912500.00@gmail.com" aria-label="Email">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M2 5.5C2 4.67 2.67 4 3.5 4h17c.83 0 1.5.67 1.5 1.5v13c0 .83-.67 1.5-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13zm2.2.5 7.8 5.4L19.8 6H4.2zM20 8.2l-7.4 5.13a1 1 0 0 1-1.14 0L4 8.2V18h16V8.2z"/></svg>
+    </a>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll down">
+    <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 16.5 4.5 9l1.4-1.4L12 13.7l6.1-6.1L19.5 9z"/></svg>
+  </a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2 class="section-title">About Me</h2>
+  <div class="about-card">
+    <div class="tabs">
+      <button class="tab active" data-tab="bio">Bio</button>
+      <button class="tab" data-tab="education">Education</button>
+      <button class="tab" data-tab="hobbies">Hobbies</button>
+    </div>
+
+    <div class="tab-panel active" id="tab-bio">
+      <p>Motivated BCA student with a strong interest in <span class="hl">Frontend Development</span> and
+        practical knowledge of <span class="hl">HTML, CSS, JavaScript</span>, and <span class="hl">SQL</span>.
+        Experienced in building responsive web projects and using GitHub for version control.</p>
+      <p>Comfortable turning a design into a working interface end-to-end — from markup and styling to
+        wiring up a database with PHP and MySQL. Currently sharpening problem-solving skills through
+        consistent DSA practice.</p>
+      <p>Seeking an entry-level Frontend Developer role to apply these skills in a real product team and
+        keep growing as a software professional.</p>
+      <div class="chips">
+        <span class="chip">📍 Mumbai, India</span>
+        <span class="chip">🎓 BCA Student</span>
+        <span class="chip">💻 Frontend Focus</span>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="tab-education">
+      <div class="edu-row">
+        <div class="edu-dot"></div>
+        <div>
+          <div class="edu-date">2025 – 2028 · Pursuing</div>
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p>Yashwantrao Chavan Maharashtra Open University (YCMOU), Mumbai — currently in 2nd year.</p>
+        </div>
+      </div>
+      <div class="edu-row">
+        <div class="edu-dot done"></div>
+        <div>
+          <div class="edu-date">Certification</div>
+          <h3>ADCA — Advanced Diploma in Computer Applications</h3>
+          <p>Foundational diploma covering core computer applications and programming concepts.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="tab-hobbies">
+      <div class="hobby-grid">
+        <div class="hobby"><span>💻</span>Coding</div>
+        <div class="hobby"><span>🌐</span>Web Development</div>
+        <div class="hobby"><span>📰</span>Reading Tech Blogs</div>
+        <div class="hobby"><span>🎧</span>Listening to Music</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2 class="section-title">Tech Stack</h2>
+  <div class="stack-grid">
+
+    <div class="code-card">
+      <div class="code-topbar">
+        <span class="dots"><i class="r"></i><i class="y"></i><i class="g"></i></span>
+        <span class="filename">vishal.html</span>
+      </div>
+      <div class="code-meta"><span class="lang">HTML5</span><div class="bar"><div class="fill" style="width:95%"></div></div><span class="level">Advanced</span></div>
+      <pre class="code-body"><span class="ln">1</span><span class="tag">&lt;!DOCTYPE html&gt;</span>
+<span class="ln">2</span><span class="tag">&lt;body&gt;</span>
+<span class="ln">3</span>  <span class="tag">&lt;h1&gt;</span>Hi, it's me Vishal <span class="em">👋</span><span class="tag">&lt;/h1&gt;</span>
+<span class="ln">4</span><span class="tag">&lt;/body&gt;</span></pre>
+    </div>
+
+    <div class="code-card">
+      <div class="code-topbar">
+        <span class="dots"><i class="r"></i><i class="y"></i><i class="g"></i></span>
+        <span class="filename">vishal.css</span>
+      </div>
+      <div class="code-meta"><span class="lang">CSS</span><div class="bar"><div class="fill" style="width:92%"></div></div><span class="level">Advanced</span></div>
+      <pre class="code-body"><span class="ln">1</span><span class="prop">.hero</span> {
+<span class="ln">2</span>  <span class="prop">display</span>: flex;
+<span class="ln">3</span>  <span class="prop">color</span>: <span class="str">#22c55e</span>;
+<span class="ln">4</span>}</pre>
+    </div>
+
+    <div class="code-card">
+      <div class="code-topbar">
+        <span class="dots"><i class="r"></i><i class="y"></i><i class="g"></i></span>
+        <span class="filename">vishal.js</span>
+      </div>
+      <div class="code-meta"><span class="lang">JAVASCRIPT</span><div class="bar"><div class="fill" style="width:70%"></div></div><span class="level">Intermediate</span></div>
+      <pre class="code-body"><span class="ln">1</span><span class="kw">const</span> greet = (name) =&gt; {
+<span class="ln">2</span>  console.log(<span class="str">`Hi, it's ${name} 🚀`</span>);
+<span class="ln">3</span>};
+<span class="ln">4</span>greet(<span class="str">"Vishal"</span>);</pre>
+    </div>
+
+    <div class="code-card">
+      <div class="code-topbar">
+        <span class="dots"><i class="r"></i><i class="y"></i><i class="g"></i></span>
+        <span class="filename">vishal.sql</span>
+      </div>
+      <div class="code-meta"><span class="lang">SQL</span><div class="bar"><div class="fill" style="width:65%"></div></div><span class="level">Intermediate</span></div>
+      <pre class="code-body"><span class="ln">1</span><span class="cm">-- vishal.sql</span>
+<span class="ln">2</span><span class="kw">SELECT</span> greeting <span class="kw">FROM</span> developers
+<span class="ln">3</span><span class="kw">WHERE</span> name = <span class="str">'Vishal'</span>;</pre>
+    </div>
+
+    <div class="code-card">
+      <div class="code-topbar">
+        <span class="dots"><i class="r"></i><i class="y"></i><i class="g"></i></span>
+        <span class="filename">vishal.jsx</span>
+      </div>
+      <div class="code-meta"><span class="lang">REACT</span><div class="bar"><div class="fill" style="width:50%"></div></div><span class="level">Beginner</span></div>
+      <pre class="code-body"><span class="ln">1</span><span class="kw">function</span> <span class="prop">Vishal</span>() {
+<span class="ln">2</span>  <span class="kw">return</span> <span class="tag">&lt;h1&gt;</span>Hi, it's me Vishal <span class="em">⚛️</span><span class="tag">&lt;/h1&gt;</span>;
+<span class="ln">3</span>}
+<span class="ln">4</span><span class="kw">export default</span> Vishal;</pre>
+    </div>
+
+    <div class="code-card">
+      <div class="code-topbar">
+        <span class="dots"><i class="r"></i><i class="y"></i><i class="g"></i></span>
+        <span class="filename">vishal.py</span>
+      </div>
+      <div class="code-meta"><span class="lang">PYTHON</span><div class="bar"><div class="fill" style="width:40%"></div></div><span class="level">Intermediate</span></div>
+      <pre class="code-body"><span class="ln">1</span><span class="cm"># vishal.py</span>
+<span class="ln">2</span><span class="kw">def</span> greet():
+<span class="ln">3</span>    print(<span class="str">"Hi, it's me Vishal 🐍"</span>)
+<span class="ln">4</span>
+<span class="ln">5</span>greet()</pre>
+    </div>
+
+  </div>
+
+  <div class="tools-row">
+    <span class="tool-chip">Git</span>
+    <span class="tool-chip">GitHub</span>
+    <span class="tool-chip">VS Code</span>
+    <span class="tool-chip">XAMPP</span>
+    <span class="tool-chip">Netlify</span>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="roadmap" class="section">
+  <h2 class="section-title">Roadmap</h2>
+  <div class="legend">
+    <span><i class="dot done"></i>Completed</span>
+    <span><i class="dot progress"></i>In Progress</span>
+    <span><i class="dot upcoming"></i>Upcoming</span>
+  </div>
+
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-marker progress"></div>
+      <div class="tl-card">
+        <div class="tl-top"><span class="tl-date">2025 – 2028</span><span class="tl-tag progress">In Progress</span></div>
+        <h3>BCA at YCMOU</h3>
+        <p>Pursuing Bachelor of Computer Applications, currently in 2nd year — building a strong foundation in programming and web technologies.</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-marker done"></div>
+      <div class="tl-card">
+        <div class="tl-top"><span class="tl-date">Completed</span><span class="tl-tag done">Completed</span></div>
+        <h3>ADCA Certification</h3>
+        <p>Completed the Advanced Diploma in Computer Applications, covering programming and office productivity fundamentals.</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-marker done"></div>
+      <div class="tl-card">
+        <div class="tl-top"><span class="tl-date">Project</span><span class="tl-tag done">Completed</span></div>
+        <h3>Personal Portfolio &amp; Cafe Website</h3>
+        <p>Designed and deployed a responsive portfolio site and a cafe website with a working contact form and image gallery.</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-marker done"></div>
+      <div class="tl-card">
+        <div class="tl-top"><span class="tl-date">Project</span><span class="tl-tag done">Completed</span></div>
+        <h3>Student Registration System</h3>
+        <p>Built a full registration flow with form validation, MySQL storage, and PHP-driven display logic.</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-marker upcoming"></div>
+      <div class="tl-card">
+        <div class="tl-top"><span class="tl-date">Next</span><span class="tl-tag upcoming">Upcoming</span></div>
+        <h3>Learning React &amp; Modern Frontend Tooling</h3>
+        <p>Leveling up from vanilla JS to component-based frontend development for production-scale apps.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-head">
+        <div class="project-icon">🗂️</div>
+        <div>
+          <h3>Personal Portfolio Website</h3>
+          <p class="project-sub">Responsive Portfolio Site</p>
+        </div>
+      </div>
+      <p class="project-desc">Fully responsive personal portfolio showcasing skills, projects, and contact information — deployed on Netlify.</p>
+      <div class="tags"><span>HTML</span><span>CSS</span></div>
+      <a href="https://github.com/vishalgupta21" target="_blank" rel="noopener" class="source-btn">
+        <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.76-1.34-1.76-1.1-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.08 1.83 2.82 1.31 3.5 1 .11-.78.42-1.31.77-1.61-2.66-.31-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.54.12-3.2 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.89.12 3.2.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+        Source
+      </a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-head">
+        <div class="project-icon">☕</div>
+        <div>
+          <h3>Cafe Website</h3>
+          <p class="project-sub">Responsive Business Site</p>
+        </div>
+      </div>
+      <p class="project-desc">A responsive cafe website with a modern UI, smooth navigation, menu section, gallery, and a working contact form.</p>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      <a href="https://github.com/vishalgupta21" target="_blank" rel="noopener" class="source-btn">
+        <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.76-1.34-1.76-1.1-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.08 1.83 2.82 1.31 3.5 1 .11-.78.42-1.31.77-1.61-2.66-.31-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.54.12-3.2 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.89.12 3.2.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+        Source
+      </a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-head">
+        <div class="project-icon">🗃️</div>
+        <div>
+          <h3>Student Registration System</h3>
+          <p class="project-sub">Full-Stack Form + Database</p>
+        </div>
+      </div>
+      <p class="project-desc">A student registration form with validation, storing data in MySQL and displaying it dynamically via PHP with secure error handling.</p>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>PHP</span><span>MySQL</span></div>
+      <a href="https://github.com/vishalgupta21" target="_blank" rel="noopener" class="source-btn">
+        <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.76-1.34-1.76-1.1-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.08 1.83 2.82 1.31 3.5 1 .11-.78.42-1.31.77-1.61-2.66-.31-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.54.12-3.2 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.89.12 3.2.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+        Source
+      </a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-head">
+        <div class="project-icon">🎮</div>
+        <div>
+          <h3>Tic-Tac-Toe Game</h3>
+          <p class="project-sub">Browser Game</p>
+        </div>
+      </div>
+      <p class="project-desc">Responsive two-player Tic-Tac-Toe game with win, draw, and reset logic, built with a clean, user-friendly interface.</p>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      <a href="https://github.com/vishalgupta21" target="_blank" rel="noopener" class="source-btn">
+        <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.76-1.34-1.76-1.1-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.08 1.83 2.82 1.31 3.5 1 .11-.78.42-1.31.77-1.61-2.66-.31-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.54.12-3.2 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.89.12 3.2.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+        Source
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <span class="badge center"><span class="dot"></span>Open to Opportunities</span>
+  <h2 class="section-title">Let's Build Something Together</h2>
+  <p class="section-sub">Got a project idea, job opportunity, or freelance work? I'd love to hear from you.</p>
+
+  <form class="contact-form" id="contactForm">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Hey Vishal, I'd love to discuss..." required></textarea>
+
+    <button type="submit" class="btn btn-primary full">
+      <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M2 5.5C2 4.67 2.67 4 3.5 4h17c.83 0 1.5.67 1.5 1.5v13c0 .83-.67 1.5-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13zm2.2.5 7.8 5.4L19.8 6H4.2zM20 8.2l-7.4 5.13a1 1 0 0 1-1.14 0L4 8.2V18h16V8.2z"/></svg>
+      Send Message
+    </button>
+
+    <p class="form-note" id="formNote"></p>
+
+    <div class="direct-contact">
+      Or reach out directly:
+      <a href="mailto:vishalgupta912500.00@gmail.com">vishalgupta912500.00@gmail.com</a>
+      <span>+91 91250 01675</span>
+    </div>
+  </form>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Vishal Gupta. Built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
