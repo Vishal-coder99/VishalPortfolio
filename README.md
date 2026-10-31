@@ -64,7 +64,7 @@ Coming Soon!
 ## 📬 Connect With Me
 
 - **GitHub:** [Vishal-coder99](https://github.com/Vishal-coder99)
-- **LinkedIn:** [Vishal Gupta](https://linkedin.com/in/vishal-gupta21)
+- **LinkedIn:** [Vishal Gupta](https://linkedin.com/in/vishal-gupta215)
 
 ## 🎯 Future Improvements
 
