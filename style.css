@@ -272,6 +272,15 @@ button{ font-family:inherit; cursor:pointer; border:none; background:none; color
   color: #06150c;
 }
 
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: block;
+    animation: fadeIn .3s ease;
+}
+
 .tab-panel{ display:none; }
 .tab-panel.active{ display:block; animation: fadeIn .3s ease; }
 

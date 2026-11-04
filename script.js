@@ -23,18 +23,43 @@ function setActiveLink(){
 window.addEventListener('scroll', setActiveLink);
 setActiveLink();
 
-// ===== About tabs =====
+// // ===== About tabs =====
+// const tabs = document.querySelectorAll('.tab');
+// const panels = document.querySelectorAll('.tab-panel');
+
+// tabs.forEach(tab => {
+//   tab.addEventListener('click', () => {
+//     tabs.forEach(t => t.classList.remove('active'));
+//     panels.forEach(p => p.classList.remove('active'));
+
+//     tab.classList.add('active');
+//     document.getElementById(`tab-${tab.dataset.tab}`).classList.add('active');
+//   });
+// });
+
 const tabs = document.querySelectorAll('.tab');
 const panels = document.querySelectorAll('.tab-panel');
 
 tabs.forEach(tab => {
-  tab.addEventListener('click', () => {
-    tabs.forEach(t => t.classList.remove('active'));
-    panels.forEach(p => p.classList.remove('active'));
 
-    tab.classList.add('active');
-    document.getElementById(`tab-${tab.dataset.tab}`).classList.add('active');
-  });
+    tab.addEventListener('click', () => {
+
+        // Remove active from all tabs
+        tabs.forEach(t => t.classList.remove('active'));
+
+        // Hide all panels
+        panels.forEach(p => p.classList.remove('active'));
+
+        // Activate clicked tab
+        tab.classList.add('active');
+
+        // Show selected panel
+        const target = 'tab-' + tab.dataset.tab;
+
+        document.getElementById(target).classList.add('active');
+
+    });
+
 });
 
 // ===== Contact form (front-end only demo) =====
